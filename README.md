@@ -15,12 +15,12 @@ Javaのマルチスレッドの実装例
 
 ## インスタンス生成
 1. ExecutorService exec = Executors.newSingleThread();
-    別スレッドを1つだけ作る。
+     - 別スレッドを1つだけ作る。
+     - sample.java.multithread.executors.SingleThread参考。
 2. ExecutorService exec = Executors.newFixedThreadPool(int);
-    引数で指定した数、別スレッドを作る。
+     - 引数で指定した数、別スレッドを作る。
 3. ExecutorService exec = Executors.newCachedThreadPool();
-    必要に応じて、別スレッドを作る。
-
+     - 必要に応じて、別スレッドを作る。
 
 ## 別スレッド処理実装例
 
